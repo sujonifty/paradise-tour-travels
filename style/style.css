@@ -8,7 +8,7 @@
 .same-container {
     width: 81.25%;
     margin: 2rem auto;
-    border: 0.5rem solid blue;
+    
 }
 
 .color-tittle {
@@ -37,9 +37,9 @@ nav {
 
 .nav-bar ul li {
     list-style: none;
-    opacity: 0.7;
 
 }
+
 
 .nav-bar ul li a {
     text-decoration: none;
@@ -48,7 +48,9 @@ nav {
     font-size: 18px;
     font-weight: 400;
 }
-
+#menu-icon{
+    display: none;
+}
 .nav-bar ul {
     display: flex;
     align-items: center;
@@ -61,5 +63,44 @@ nav {
     border: 0.2rem solid slategray;
     border-radius: 0.25rem;
     padding: 0.25rem;
-    opacity: 1;
+}
+/* ----banner section----  */
+.banner-container{
+    background-image: url("../Images/Group 13.png");
+}
+
+.banner-box{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    
+    .same-container{
+        width: 80%;
+    
+        
+    }
+    #menu{
+        display: none;
+    }
+    #menu-icon{
+        display: inline;
+    }
+    .logo-tittle {
+        font-size: 1rem;
+        font-weight: 800;
+    }
+    nav {
+        justify-content: space-around;
+        
+    }
+
 }
