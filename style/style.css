@@ -182,7 +182,13 @@ nav {
 
     }
 /* ----banner section----  */
-
+.banner-box{
+    flex-direction: column;
+}
+.banner-content p{
+    width: 90%;
+    margin: 0rem auto;
+}
 
 /* ---Popular Tours section---  */
 }
