@@ -261,14 +261,16 @@ nav {
     font-size: 2rem;
     font-weight: 700;
 }
- /* ----choose cards section----  */
- .choose-container{
+
+/* ----choose cards section----  */
+.choose-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
- }
+}
+
 .choose-card {
     width: 40%;
     border-radius: 1rem;
@@ -301,7 +303,7 @@ nav {
     /* ----nav-bar section----  */
     .same-container {
         width: 80%;
-
+        margin: 0rem auto;
 
     }
 
@@ -380,6 +382,18 @@ nav {
         grid-column: 1/span 1
     }
 
+    /* ----Why choose us section--- */
+    .choose-container {
+        flex-direction: column;
+    }
+
+    .choose-card {
+        width: 90%;
+        margin: 0rem auto;
+    }
+
+
+
 
 }
 
@@ -397,9 +411,21 @@ nav {
     }
 
     /* ----popular tour section--- */
-
-
-
+    .tour-container{
+        flex-direction: column;
+    }
+    .tour-content {
+        width: 90%;
+        margin: 0rem auto;
+    }
+    .tour-img {
+        width: 90%;
+        margin: 0rem auto;
+    }
+    
+    button{
+        margin: 1rem auto;
+    }
 
 
     /* ----Destination section section--- */
@@ -434,4 +460,18 @@ nav {
     .destination-img-7 {
         grid-column: 1/span 2
     }
+
+    /* ----Why choose us section--- */
+    .choose-container {
+        flex-direction: column;
+    }
+
+    .choose-card {
+        width: 90%;
+        margin: 0rem auto;
+    }
+
+
+
+
 }
