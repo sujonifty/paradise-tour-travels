@@ -17,7 +17,7 @@
     margin-bottom: 2rem;
 }
 .description {
-    width: 40rem;
+    /* width: 40rem; */
     text-align: justify;
     font-size: 1rem;
     font-weight: 400;
@@ -162,7 +162,7 @@ nav {
 }
 .tour-content{
     width: 55%;
-    border: 5px solid red;
+    
 }
 .tour-content ul{
     padding-left: 1rem;
@@ -171,7 +171,7 @@ nav {
 }
 .tour-img{
     width: 40%;
-    border: 5px solid red;
+   
 }
 .tour-img img{
     width: 100%;
@@ -282,8 +282,30 @@ nav {
     width: 100%;
 }
 /* ----Destination section--- */
-
-
+.destination-img-container{
+    grid-template-columns: 1fr;
+}
+.destination-img-1{
+    grid-column: 1/span 1
+}
+.destination-img-2{
+    grid-column: 1/span 1
+}
+.destination-img-3{
+    grid-column: 1/span 1
+}
+.destination-img-4{
+    grid-column: 1/span 1 
+}
+.destination-img-5{
+    grid-column: 1/span 1
+}
+.destination-img-6{
+    grid-column: 1/span 1
+}
+.destination-img-7{
+    grid-column: 1/span 1
+}
 
 
 }
