@@ -835,6 +835,12 @@ footer p {
         transform: rotate(-20deg);
     }
 
+    .all-img {
+       flex-direction: column;
+    }
+    .all-img div {
+        width: 100%;
+    }
     .footer-logo-container {
         flex-direction: column;
     }
