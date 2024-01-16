@@ -219,12 +219,12 @@ nav {
 }
 
 .destination-img-1 {
-    grid-column: 1/13;
+    grid-column: 1/12;
     grid-row: 1/ span 1;
 }
 
 .destination-img-2 {
-    grid-column: 13/24;
+    grid-column: 12/24;
     grid-row: 1/span 1;
 }
 
@@ -244,12 +244,12 @@ nav {
 }
 
 .destination-img-6 {
-    grid-column: 1/13;
+    grid-column: 1/11;
     grid-row: 3/span 1;
 }
 
 .destination-img-7 {
-    grid-column: 13/24;
+    grid-column: 11/24;
     grid-row: 3/span 1;
 }
 
@@ -448,7 +448,7 @@ footer{
     background: rgba(19, 19, 24, 0.05);
 }
 footer  p{
-    margin: 2rem auto;
+    margin: 0rem auto;
     padding: 3rem;
 }
 .social-media-container{
@@ -603,6 +603,9 @@ footer  p{
 @media screen and (max-width:600px) {
 
     /* ----nav-bar section----  */
+    #short-tittle{
+        display: none;
+    }
     .same-container {
         width: 80%;
         margin: 2rem auto;
@@ -753,5 +756,7 @@ footer  p{
         transform: rotate(-20deg);
     }
 
-
+    .footer-logo-container{
+        flex-direction: column;
+    }
 }
