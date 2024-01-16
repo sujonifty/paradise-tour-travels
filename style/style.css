@@ -378,7 +378,7 @@ nav {
 }
 
 .newsletter-field {
-    width: 35;
+    width: 35%;
     border-radius: 1rem;
     border: 1px solid #FF5400;
     padding: 5rem 1rem;
@@ -430,13 +430,138 @@ nav {
 }
 
 
+
+
+/* #####----Responsive for medium device----######  */
+@media screen and (min-width:601px) and (max-width:992px) {
+
+    /* ----nav-bar section----  */
+    .logo-container {
+        flex-direction: column;
+    }
+
+    /* ----banner section----  */
+    .banner-box {
+        flex-wrap: wrap;
+    }
+
+    /* ----popular tour section--- */
+    .tour-container {
+        flex-direction: column;
+    }
+
+    .tour-content {
+        width: 90%;
+        margin: 2rem auto;
+    }
+
+    .tour-img {
+        width: 90%;
+        margin: 2rem auto;
+    }
+
+    button {
+        margin: 1rem auto;
+    }
+
+
+    /* ----Destination section section--- */
+    .destination-img-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .destination-img-1 {
+        grid-column: 1/span 2
+    }
+
+    .destination-img-2 {
+        grid-column: 1/span 2
+    }
+
+    .destination-img-3 {
+        grid-column: 1/span 2
+    }
+
+    .destination-img-4 {
+        grid-column: 1/span 2
+    }
+
+    .destination-img-5 {
+        grid-column: 1/span 2
+    }
+
+    .destination-img-6 {
+        grid-column: 1/span 2
+    }
+
+    .destination-img-7 {
+        grid-column: 1/span 2
+    }
+
+    /* ----Why choose us section--- */
+    .choose-container {
+        flex-direction: column;
+    }
+
+    .choose-card {
+        width: 90%;
+        margin: 2rem auto;
+    }
+
+    /* ----Deals & Discounts section----  */
+    .deal-card {
+        width: 90%;
+        position: static;
+        margin-bottom: 0rem;
+    }
+
+    .deal-card-2 {
+        width: 90%;
+        height: 60%;
+        position: static;
+        margin-bottom: 0rem;
+    }
+
+    .deals-container {
+        margin: 2rem auto;
+    }
+
+    /* ----video section----  */
+    .video-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    /* ----newsletter section----  */
+    .newsletter-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+   
+    .newsletter-img {
+        width: 90%;
+        margin: 2rem auto;
+    }
+
+    .newsletter-field {
+        width: 90%;
+        margin: 2rem auto;
+        padding: 5rem 0rem;
+    }
+    .newsletter-field input{
+        width: 90%;
+        margin: 2rem auto;
+    }
+
+}
+
 /* #####----Responsive for smaller device----######  */
 @media screen and (max-width:600px) {
 
     /* ----nav-bar section----  */
     .same-container {
         width: 80%;
-        margin: 0rem auto;
+        margin: 2rem auto;
 
     }
 
@@ -465,7 +590,7 @@ nav {
 
     .banner-content p {
         width: 90%;
-        margin: 0rem auto;
+        margin: 2rem auto;
     }
 
     /* ---Popular Tours section---  */
@@ -522,7 +647,7 @@ nav {
 
     .choose-card {
         width: 90%;
-        margin: 0rem auto;
+        margin: 2rem auto;
     }
 
     /* ----Deals & Discounts section----  */
@@ -547,6 +672,14 @@ nav {
     .video-container {
         flex-direction: column;
         gap: 2rem;
+    }
+    .video-description {
+        width: 90%;
+        margin: 2rem auto;
+    }
+    .video-content {
+        width: 90%;
+        margin: 2rem auto;
     }
 
     /* ----newsletter section----  */
@@ -554,130 +687,22 @@ nav {
         flex-direction: column;
         gap: 1.5rem;
     }
-    .video-description {
-        width: 90%;
-        margin: 0rem auto;
-    }
-    .video-content {
-        width: 90%;
-        margin: 0rem auto;
-    }
+   
     .newsletter-img {
         width: 90%;
-        margin: 1rem auto;
+        margin: 2rem auto;
     }
 
     .newsletter-field {
         width: 90%;
-        margin: 1rem auto;
-    }
-
-
-
-}
-
-/* #####----Responsive for medium device----######  */
-@media screen and (min-width:601px) and (max-width:992px) {
-
-    /* ----nav-bar section----  */
-    .logo-container {
-        flex-direction: column;
-    }
-
-    /* ----banner section----  */
-    .banner-box {
-        flex-wrap: wrap;
-    }
-
-    /* ----popular tour section--- */
-    .tour-container {
-        flex-direction: column;
-    }
-
-    .tour-content {
-        width: 90%;
         margin: 0rem auto;
+        padding: 5rem 0rem;
     }
-
-    .tour-img {
+    .newsletter-field input{
         width: 90%;
-        margin: 0rem auto;
-    }
-
-    button {
-        margin: 1rem auto;
-    }
-
-
-    /* ----Destination section section--- */
-    .destination-img-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .destination-img-1 {
-        grid-column: 1/span 2
-    }
-
-    .destination-img-2 {
-        grid-column: 1/span 2
-    }
-
-    .destination-img-3 {
-        grid-column: 1/span 2
-    }
-
-    .destination-img-4 {
-        grid-column: 1/span 2
-    }
-
-    .destination-img-5 {
-        grid-column: 1/span 2
-    }
-
-    .destination-img-6 {
-        grid-column: 1/span 2
-    }
-
-    .destination-img-7 {
-        grid-column: 1/span 2
-    }
-
-    /* ----Why choose us section--- */
-    .choose-container {
-        flex-direction: column;
-    }
-
-    .choose-card {
-        width: 90%;
-        margin: 0rem auto;
-    }
-
-    /* ----Deals & Discounts section----  */
-    .deal-card {
-        width: 90%;
-        position: static;
-        margin-bottom: 0rem;
-    }
-
-    .deal-card-2 {
-        width: 90%;
-        height: 60%;
-        position: static;
-        margin-bottom: 0rem;
-    }
-
-    .deals-container {
         margin: 2rem auto;
     }
 
-    /* ----video section----  */
-    .video-container {
-        flex-direction: column;
-        gap: 2rem;
-    }
 
-    /* ----newsletter section----  */
-    .newsletter-container {
-        flex-direction: column;
-    }
+
 }
