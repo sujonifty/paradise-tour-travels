@@ -312,7 +312,7 @@ nav {
 }
 
 .deal-card {
-    width: 45%;
+    width: 40%;
     position: relative;
     top: 20%;
     left: 20%;
@@ -325,7 +325,7 @@ nav {
 }
 
 .deal-card-2 {
-    width: 45%;
+    width: 40%;
     position: relative;
     top: 20%;
     right: 20%;
@@ -414,8 +414,8 @@ nav {
 
 #btn-discount {
     position: absolute;
-    left: 60%;
-    bottom: 11%;
+    left: 64%;
+    bottom: 9%;
     border-radius: 1rem;
     background: #FF5400;
     color: #FFF;
@@ -455,7 +455,7 @@ footer  p{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 3rem;
     padding: 3rem;
 }
 .social-media-icons a{
@@ -549,15 +549,16 @@ footer  p{
     /* ----Deals & Discounts section----  */
     .deal-card {
         width: 90%;
+        height: 50%;
         position: static;
-        margin-bottom: 0rem;
+        margin-top: 2rem;
     }
 
     .deal-card-2 {
         width: 90%;
-        height: 60%;
+        height: 50%;
         position: static;
-        margin-bottom: 0rem;
+        margin-top: 2rem;
     }
 
     .deals-container {
@@ -699,16 +700,17 @@ footer  p{
 
     /* ----Deals & Discounts section----  */
     .deal-card {
-        width: 90%;
+        width: 303px;
+        height: 297px;
         position: static;
-        margin-bottom: 0rem;
+        margin-top:12rem;
     }
 
     .deal-card-2 {
-        width: 90%;
-        height: 60%;
+        width: 303px;;
+        height: 297px;
         position: static;
-        margin-bottom: 0rem;
+        margin-top:12rem;
     }
 
     .deals-container {
