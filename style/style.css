@@ -3,11 +3,17 @@
     margin: 0rem;
     padding: 0rem;
 }
+ /* main, header,footer{
+    border: 20px solid red;
+}
+section{
+    border: 20px solid blue;
+}  */
 
 /* Common classes */
 .same-container {
     width: 81.25%;
-    margin: 3rem auto;
+    margin: 2rem auto;
 
 }
 
@@ -61,9 +67,13 @@ a {
     text-decoration: none;
     color: #FFF;
 }
-
+.heading{
+    width: 80%;
+    margin: 0rem auto;
+}
 /* ----nav-bar section----  */
 nav {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -172,12 +182,12 @@ nav {
 /* ---Popular Tours section---  */
 .tour-container {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     align-items: center;
 }
 
 .tour-content {
-    width: 55%;
+    width:40%;
 
 }
 
@@ -270,7 +280,10 @@ nav {
     flex-wrap: wrap;
     gap: 2rem;
 }
-
+.choose-outer-container p{
+    width: 90%;
+    margin: 0rem auto;
+}
 .choose-card {
     width: 40%;
     border-radius: 1rem;
@@ -296,7 +309,10 @@ nav {
     border: 3px solid white;
     border-radius: 0.5rem;
 }
-
+.deal-content p{
+    width: 90%;
+    margin: 0rem auto;
+}
 .deals-container-2 {
     background-image: url("../Images/Group40.png");
     background-size: cover;
@@ -604,9 +620,7 @@ footer  p{
 @media screen and (max-width:600px) {
 
     /* ----nav-bar section----  */
-    #short-tittle{
-        display: none;
-    }
+    
     .same-container {
         width: 80%;
         margin: 2rem auto;
