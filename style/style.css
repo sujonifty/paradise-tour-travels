@@ -296,6 +296,7 @@ nav {
     border: 3px solid white;
     border-radius: 0.5rem;
 }
+
 .deals-container-2 {
     background-image: url("../Images/Group40.png");
     background-size: cover;
@@ -322,7 +323,8 @@ nav {
     padding: 2.5rem;
     margin: 3rem auto;
 }
-.deal-card-2{
+
+.deal-card-2 {
     width: 45%;
     position: relative;
     top: 20%;
@@ -334,15 +336,55 @@ nav {
     padding: 2.5rem;
     margin: 3rem auto;
 }
-.btn-center{
+
+.btn-center {
     text-align: center;
 }
 
+/* ----newsletter section----  */
+.newsletter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter-field input {
+    width: 24rem;
+    height: 2.5rem;
+    display: block;
+    border-radius: 0.5rem;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 1rem auto;
+    padding: 0.5rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.newsletter-img{
+    position: relative;
+}
+#btn-submit {
+    background: #FF5400;
+}
+#btn-discount {
+    position: absolute;
+    left: 60%;
+    bottom: 11%;
+    border-radius: 1rem;
+    background: #FF5400;
+    color: #FFF;
+    transform: rotate(-19deg);
+    padding: 0.5rem;
+}
+#btn-discount h5{
+   
+    font-size: 2rem;
+    font-weight: 800;
+}
 
 
-
-
-/* #####----Responsive for medium device----######  */
+/* #####----Responsive for smaller device----######  */
 @media screen and (max-width:600px) {
 
     /* ----nav-bar section----  */
@@ -440,18 +482,24 @@ nav {
     /* ----Deals & Discounts section----  */
     .deal-card {
         width: 90%;
-        position:static;
+        position: static;
         margin-bottom: 0rem;
     }
-    .deal-card-2{
+
+    .deal-card-2 {
         width: 90%;
         height: 60%;
         position: static;
         margin-bottom: 0rem;
     }
-.deals-container{
-    margin: 2rem auto;
-}
+
+    .deals-container {
+        margin: 2rem auto;
+    }
+
+    /* ----newsletter section----  */
+
+
 
 
 
@@ -536,18 +584,21 @@ nav {
     /* ----Deals & Discounts section----  */
     .deal-card {
         width: 90%;
-        position:static;
+        position: static;
         margin-bottom: 0rem;
     }
-    .deal-card-2{
+
+    .deal-card-2 {
         width: 90%;
         height: 60%;
         position: static;
         margin-bottom: 0rem;
     }
-.deals-container{
-    margin: 2rem auto;
-}
 
+    .deals-container {
+        margin: 2rem auto;
+    }
+
+    /* ----newsletter section----  */
 
 }
