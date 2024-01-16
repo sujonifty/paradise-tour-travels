@@ -430,6 +430,44 @@ nav {
 }
 
 
+/* ----footer section----  */
+
+
+.footer-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 4rem;
+}
+.footer-logo-container .tittle{
+    margin-top: 1rem;
+}
+/* ----social media section----  */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+footer  p{
+    margin: 2rem auto;
+    padding: 3rem;
+}
+.social-media-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 3rem;
+}
+.social-media-icons a{
+    color: black;
+    font-size: 2rem;
+}
+.copyrights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
 
 
 /* #####----Responsive for medium device----######  */
