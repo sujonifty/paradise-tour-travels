@@ -289,15 +289,56 @@ nav {
     background: rgba(233, 68, 68, 0.05);
 }
 
+/* ----Deals & Discounts section----  */
+.deals-container {
+    background-image: url("../Images/Group39.png");
+    background-size: cover;
+    border: 3px solid red;
+}
+.deals-container-2 {
+    background-image: url("../Images/Group40.png");
+    background-size: cover;
+    border: 3px solid red;
+}
+
+.deal-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.deal-card {
+    width: 45%;
+    position: relative;
+    top: 20%;
+    left: 20%;
+    border-radius: 1rem;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 2.5rem;
+    margin: 3rem auto;
+}
+.deal-card-2{
+    width: 45%;
+    position: relative;
+    top: 20%;
+    right: 20%;
+    border-radius: 1rem;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 2.5rem;
+    margin: 3rem auto;
+}
 
 
 
 
 
 
-
-
-
+/* #####----Responsive for medium device----######  */
 @media screen and (max-width:600px) {
 
     /* ----nav-bar section----  */
@@ -392,12 +433,15 @@ nav {
         margin: 0rem auto;
     }
 
+    /* ----Deals & Discounts section----  */
+
+
 
 
 
 }
 
-
+/* #####----Responsive for medium device----######  */
 @media screen and (min-width:601px) and (max-width:992px) {
 
     /* ----nav-bar section----  */
@@ -411,19 +455,21 @@ nav {
     }
 
     /* ----popular tour section--- */
-    .tour-container{
+    .tour-container {
         flex-direction: column;
     }
+
     .tour-content {
         width: 90%;
         margin: 0rem auto;
     }
+
     .tour-img {
         width: 90%;
         margin: 0rem auto;
     }
-    
-    button{
+
+    button {
         margin: 1rem auto;
     }
 
@@ -471,6 +517,7 @@ nav {
         margin: 0rem auto;
     }
 
+    /* ----Deals & Discounts section----  */
 
 
 
