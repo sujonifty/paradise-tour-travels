@@ -512,7 +512,7 @@ footer {
 
 footer p {
     margin: 0rem auto;
-    padding: 3rem;
+    padding: 0rem 3rem;
 }
 
 .social-media-container {
@@ -520,7 +520,7 @@ footer p {
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .social-media-icons a {
@@ -569,38 +569,40 @@ footer p {
     }
 
 
-    /* ----Destination section section--- */
+    /* ----Destination section--- */
     .destination-img-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns:repeat(6,1fr);
+        grid-template-rows: 1fr;
     }
 
     .destination-img-1 {
-        grid-column: 1/span 2
+        grid-column: 1/6
     }
 
     .destination-img-2 {
-        grid-column: 1/span 2
+        grid-column: 1/6
     }
 
     .destination-img-3 {
-        grid-column: 1/span 2
+        grid-column: 1/6
     }
 
     .destination-img-4 {
-        grid-column: 1/span 2
+        grid-column: 1/6
     }
 
     .destination-img-5 {
-        grid-column: 1/span 2
+        grid-column: 1/6
     }
 
     .destination-img-6 {
-        grid-column: 1/span 2
+        grid-column: 1/6
     }
 
     .destination-img-7 {
-        grid-column: 1/span 2
+        grid-column: 1/6
     }
+
 
     /* ----Why choose us section--- */
     .choose-container {
@@ -723,35 +725,36 @@ footer p {
 
     /* ----Destination section--- */
     .destination-img-container {
-        grid-template-columns: 1fr;
+        grid-template-columns:repeat(6,1fr);
+        grid-template-rows: 1fr;
     }
 
     .destination-img-1 {
-        grid-column: 1/span 1
+        grid-column: 1/6
     }
 
     .destination-img-2 {
-        grid-column: 1/span 1
+        grid-column: 1/6
     }
 
     .destination-img-3 {
-        grid-column: 1/span 1
+        grid-column: 1/6
     }
 
     .destination-img-4 {
-        grid-column: 1/span 1
+        grid-column: 1/6
     }
 
     .destination-img-5 {
-        grid-column: 1/span 1
+        grid-column: 1/6
     }
 
     .destination-img-6 {
-        grid-column: 1/span 1
+        grid-column: 1/6
     }
 
     .destination-img-7 {
-        grid-column: 1/span 1
+        grid-column: 1/6
     }
 
     /* ----Why choose us section--- */
