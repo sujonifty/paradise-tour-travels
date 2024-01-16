@@ -341,11 +341,48 @@ nav {
     text-align: center;
 }
 
+/* ----video section----  */
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video-description {
+    width: 55%;
+}
+
+.video-description ul {
+    padding-left: 1rem;
+    text-align: left;
+    margin-top: 1rem auto;
+}
+
+.video-content {
+    width: 40%;
+
+}
+
+.video-content iframe {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
 /* ----newsletter section----  */
 .newsletter-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
+}
+
+.newsletter-field {
+    width: 35;
+    border-radius: 1rem;
+    border: 1px solid #FF5400;
+    padding: 5rem 1rem;
+
 }
 
 .newsletter-field input {
@@ -361,12 +398,20 @@ nav {
     font-weight: 500;
 
 }
-.newsletter-img{
+
+.newsletter-img {
+    width: 60%;
     position: relative;
 }
+
+.newsletter-img img {
+    width: 100%;
+}
+
 #btn-submit {
     background: #FF5400;
 }
+
 #btn-discount {
     position: absolute;
     left: 60%;
@@ -377,8 +422,9 @@ nav {
     transform: rotate(-19deg);
     padding: 0.5rem;
 }
-#btn-discount h5{
-   
+
+#btn-discount h5 {
+
     font-size: 2rem;
     font-weight: 800;
 }
@@ -497,9 +543,34 @@ nav {
         margin: 2rem auto;
     }
 
+    /* ----video section----  */
+    .video-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
     /* ----newsletter section----  */
+    .newsletter-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .video-description {
+        width: 90%;
+        margin: 0rem auto;
+    }
+    .video-content {
+        width: 90%;
+        margin: 0rem auto;
+    }
+    .newsletter-img {
+        width: 90%;
+        margin: 1rem auto;
+    }
 
-
+    .newsletter-field {
+        width: 90%;
+        margin: 1rem auto;
+    }
 
 
 
@@ -599,6 +670,14 @@ nav {
         margin: 2rem auto;
     }
 
-    /* ----newsletter section----  */
+    /* ----video section----  */
+    .video-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
 
+    /* ----newsletter section----  */
+    .newsletter-container {
+        flex-direction: column;
+    }
 }
