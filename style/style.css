@@ -293,12 +293,14 @@ nav {
 .deals-container {
     background-image: url("../Images/Group39.png");
     background-size: cover;
-    border: 3px solid red;
+    border: 3px solid white;
+    border-radius: 0.5rem;
 }
 .deals-container-2 {
     background-image: url("../Images/Group40.png");
     background-size: cover;
-    border: 3px solid red;
+    border: 3px solid white;
+    border-radius: 0.5rem;
 }
 
 .deal-heading {
@@ -332,7 +334,9 @@ nav {
     padding: 2.5rem;
     margin: 3rem auto;
 }
-
+.btn-center{
+    text-align: center;
+}
 
 
 
@@ -530,7 +534,20 @@ nav {
     }
 
     /* ----Deals & Discounts section----  */
-
+    .deal-card {
+        width: 90%;
+        position:static;
+        margin-bottom: 0rem;
+    }
+    .deal-card-2{
+        width: 90%;
+        height: 60%;
+        position: static;
+        margin-bottom: 0rem;
+    }
+.deals-container{
+    margin: 2rem auto;
+}
 
 
 }
