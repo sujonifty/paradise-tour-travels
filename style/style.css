@@ -434,8 +434,20 @@ nav {
     }
 
     /* ----Deals & Discounts section----  */
-
-
+    .deal-card {
+        width: 90%;
+        position:static;
+        margin-bottom: 0rem;
+    }
+    .deal-card-2{
+        width: 90%;
+        height: 60%;
+        position: static;
+        margin-bottom: 0rem;
+    }
+.deals-container{
+    margin: 2rem auto;
+}
 
 
 
