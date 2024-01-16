@@ -3,7 +3,8 @@
     margin: 0rem;
     padding: 0rem;
 }
- /* main, header,footer{
+
+/* main, header,footer{
     border: 20px solid red;
 }
 section{
@@ -67,10 +68,12 @@ a {
     text-decoration: none;
     color: #FFF;
 }
-.heading{
+
+.heading {
     width: 80%;
     margin: 0rem auto;
 }
+
 /* ----nav-bar section----  */
 nav {
     width: 100%;
@@ -182,12 +185,12 @@ nav {
 /* ---Popular Tours section---  */
 .tour-container {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .tour-content {
-    width:40%;
+    width: 40%;
 
 }
 
@@ -280,10 +283,12 @@ nav {
     flex-wrap: wrap;
     gap: 2rem;
 }
-.choose-outer-container p{
+
+.choose-outer-container p {
     width: 90%;
     margin: 0rem auto;
 }
+
 .choose-card {
     width: 40%;
     border-radius: 1rem;
@@ -309,10 +314,12 @@ nav {
     border: 3px solid white;
     border-radius: 0.5rem;
 }
-.deal-content p{
+
+.deal-content p {
     width: 90%;
     margin: 0rem auto;
 }
+
 .deals-container-2 {
     background-image: url("../Images/Group40.png");
     background-size: cover;
@@ -385,6 +392,49 @@ nav {
     border-radius: 1rem;
 }
 
+/* ----next destination section----  */
+.all-img div {
+    width: 40%;
+}
+
+.all-img div img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.all-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}  
+.img-contents{
+    position: relative;
+}
+.img-tittle-center {
+    display: none;
+    position: absolute;
+    left: 22%;
+    bottom: 50%;
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    background-color:#FF5400;
+    padding: 1rem;
+}
+
+.img-contents:hover{
+    transform: scale(0.5);;
+    transition: 1.3s;
+    
+}
+.img-contents:hover .img-tittle-center{
+    display: inline;
+    
+}
 /* ----newsletter section----  */
 .newsletter-container {
     display: flex;
@@ -449,36 +499,42 @@ nav {
 /* ----footer section----  */
 
 
-.footer-logo-container{
+.footer-logo-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     padding-top: 4rem;
 }
-.footer-logo-container .tittle{
+
+.footer-logo-container .tittle {
     margin-top: 1rem;
 }
+
 /* ----social media section----  */
-footer{
+footer {
     background: rgba(19, 19, 24, 0.05);
 }
-footer  p{
+
+footer p {
     margin: 0rem auto;
     padding: 3rem;
 }
-.social-media-container{
+
+.social-media-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 3rem;
     padding: 3rem;
 }
-.social-media-icons a{
+
+.social-media-icons a {
     color: black;
     font-size: 2rem;
 }
-.copyrights{
+
+.copyrights {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -592,7 +648,7 @@ footer  p{
         flex-direction: column;
         gap: 1.5rem;
     }
-   
+
     .newsletter-img {
         width: 90%;
         margin: 2rem auto;
@@ -603,10 +659,12 @@ footer  p{
         margin: 2rem auto;
         padding: 5rem 0rem;
     }
-    .newsletter-field input{
+
+    .newsletter-field input {
         width: 90%;
         margin: 2rem auto;
     }
+
     #btn-discount {
         position: absolute;
         left: 62%;
@@ -620,7 +678,7 @@ footer  p{
 @media screen and (max-width:600px) {
 
     /* ----nav-bar section----  */
-    
+
     .same-container {
         width: 80%;
         margin: 2rem auto;
@@ -717,14 +775,15 @@ footer  p{
         width: 303px;
         height: 297px;
         position: static;
-        margin-top:12rem;
+        margin-top: 12rem;
     }
 
     .deal-card-2 {
-        width: 303px;;
+        width: 303px;
+        ;
         height: 297px;
         position: static;
-        margin-top:12rem;
+        margin-top: 12rem;
     }
 
     .deals-container {
@@ -736,10 +795,12 @@ footer  p{
         flex-direction: column;
         gap: 2rem;
     }
+
     .video-description {
         width: 90%;
         margin: 2rem auto;
     }
+
     .video-content {
         width: 90%;
         margin: 2rem auto;
@@ -750,7 +811,7 @@ footer  p{
         flex-direction: column;
         gap: 1.5rem;
     }
-   
+
     .newsletter-img {
         width: 90%;
         margin: 2rem auto;
@@ -761,10 +822,12 @@ footer  p{
         margin: 0rem auto;
         padding: 5rem 0rem;
     }
-    .newsletter-field input{
+
+    .newsletter-field input {
         width: 90%;
         margin: 2rem auto;
     }
+
     #btn-discount {
         position: absolute;
         left: 38%;
@@ -772,7 +835,7 @@ footer  p{
         transform: rotate(-20deg);
     }
 
-    .footer-logo-container{
+    .footer-logo-container {
         flex-direction: column;
     }
 }
