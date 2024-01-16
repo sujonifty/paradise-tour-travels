@@ -552,6 +552,12 @@ nav {
         width: 90%;
         margin: 2rem auto;
     }
+    #btn-discount {
+        position: absolute;
+        left: 62%;
+        bottom: 6%;
+        transform: rotate(-20deg);
+    }
 
 }
 
@@ -702,7 +708,12 @@ nav {
         width: 90%;
         margin: 2rem auto;
     }
-
+    #btn-discount {
+        position: absolute;
+        left: 38%;
+        bottom: 16%;
+        transform: rotate(-20deg);
+    }
 
 
 }
