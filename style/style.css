@@ -4,12 +4,6 @@
     padding: 0rem;
 }
 
-/* main, header,footer{
-    border: 20px solid red;
-}
-section{
-    border: 20px solid blue;
-}  */
 
 /* Common classes */
 .same-container {
@@ -226,7 +220,7 @@ nav {
 .destination-img-container {
     display: grid;
     justify-content: space-between;
-    grid-template-columns: repeat(24, 1fr);
+    grid-template-columns: repeat(25, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 1rem;
 }
