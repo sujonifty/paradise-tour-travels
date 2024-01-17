@@ -122,7 +122,8 @@ nav {
     background-size: cover;
     padding: 1rem;
     text-align: center;
-    margin: 4rem auto;
+    margin: 0rem auto;
+    border-radius: 0.5rem;
 
 }
 
@@ -573,8 +574,6 @@ footer p {
         margin: 1rem auto;
     }
 
-
-    /* ----Destination section--- */
     /* ----Destination section--- */
     .destination-img-container {
         grid-template-columns: 1fr;
@@ -718,7 +717,9 @@ footer p {
     .banner-box {
         flex-direction: column;
     }
-
+    .banner-items {
+        width: 100%;
+    }
     .banner-content p {
         width: 90%;
         margin: 2rem auto;
