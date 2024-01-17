@@ -739,12 +739,16 @@ footer p {
     }
 
     /* ----Destination section--- */
+
     .destination-img-container {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(7, 1fr);
         margin: 0rem auto;
     }
-
+.tittle-center {
+    left: 3%;
+    bottom: 56%;
+}
     .destination-img-1 {
         grid-column: 1/span 1;
         grid-row: 1/span 1;
@@ -849,9 +853,8 @@ footer p {
     }
 
     #btn-discount {
-        position: absolute;
-        left: 38%;
-        bottom: 16%;
+        left: 36%;
+        bottom: 17%;
         transform: rotate(-20deg);
     }
 
