@@ -546,6 +546,20 @@ footer p {
 
 /* #####----Responsive for medium device----######  */
 @media screen and (min-width:601px) and (max-width:992px) {
+    .same-container{
+        margin: 0rem auto;
+    }
+    nav{
+        width: 100%;
+        margin: 0rem auto;
+    }
+    #menu {
+        display: none;
+    }
+
+    #menu-icon {
+        display: inline;
+    }
 
     /* ----nav-bar section----  */
     .logo-container {
@@ -563,13 +577,13 @@ footer p {
     }
 
     .tour-content {
-        width: 90%;
-        margin: 2rem auto;
+        width: 100%;
+        margin: 0rem auto;
     }
 
     .tour-img {
-        width: 90%;
-        margin: 2rem auto;
+        width: 100%;
+        margin: 0rem auto;
     }
 
     button {
@@ -625,27 +639,27 @@ footer p {
     }
 
     .choose-card {
-        width: 90%;
+        width: 100%;
         margin: 2rem auto;
     }
 
     /* ----Deals & Discounts section----  */
     .deal-card {
-        width: 90%;
+        width: 45%;
         height: 50%;
         position: static;
         margin-top: 2rem;
     }
 
     .deal-card-2 {
-        width: 90%;
+        width: 45%;
         height: 50%;
         position: static;
         margin-top: 2rem;
     }
 
     .deals-container {
-        margin: 2rem auto;
+        margin: 0rem auto;
     }
 
     /* ----video section----  */
@@ -653,7 +667,17 @@ footer p {
         flex-direction: column;
         gap: 2rem;
     }
-
+    .video-description {
+        width: 100%;
+    }
+    .video-content {
+        width: 100%;
+    }
+    /* next tour section  */
+    
+    .img-contents img{
+        width: 100%;
+    }
     /* ----newsletter section----  */
     .newsletter-container {
         flex-direction: column;
@@ -661,12 +685,12 @@ footer p {
     }
 
     .newsletter-img {
-        width: 90%;
+        width: 100%;
         margin: 2rem auto;
     }
 
     .newsletter-field {
-        width: 90%;
+        width: 100%;
         margin: 2rem auto;
         padding: 5rem 0rem;
     }
