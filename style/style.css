@@ -411,22 +411,24 @@ nav {
 }
 
 .img-tittle-center {
+    min-width: 70%;
     display: none;
     position: absolute;
-    left: 22%;
-    bottom: 50%;
-    color: #FFF;
-    font-size: 2rem;
-    font-weight: 700;
+    left: 12%;
+    bottom: 30%;
+    color: #FF5400;
+    font-size: 2.25rem;
+    font-weight: 900;
     border-radius: 0.5rem;
-    background-color: #FF5400;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
     padding: 1rem;
+    text-align: center;
 }
 
 .img-contents:hover {
     transform: scale(0.5);
-    ;
-    transition: 1.3s;
+    
+    transition: 1.5s;
 
 }
 
@@ -717,9 +719,7 @@ footer p {
     .banner-box {
         flex-direction: column;
     }
-    .banner-items {
-        width: 100%;
-    }
+    
     .banner-content p {
         width: 90%;
         margin: 2rem auto;
@@ -854,8 +854,8 @@ footer p {
     }
 
     #btn-discount {
-        left: 36%;
-        bottom: 17%;
+        left: 52%;
+        bottom: 13%;
         transform: rotate(-20deg);
     }
 
