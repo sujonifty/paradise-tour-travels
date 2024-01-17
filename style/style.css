@@ -727,6 +727,7 @@ footer p {
     .destination-img-container {
         grid-template-columns:repeat(6,1fr);
         grid-template-rows: 1fr;
+        margin: 0rem auto;
     }
 
     .destination-img-1 {
@@ -763,7 +764,7 @@ footer p {
     }
 
     .choose-card {
-        width: 90%;
+        width: 100%;
         margin: 2rem auto;
     }
 
@@ -794,12 +795,12 @@ footer p {
     }
 
     .video-description {
-        width: 90%;
+        width: 100%;
         margin: 2rem auto;
     }
 
     .video-content {
-        width: 90%;
+        width: 100%;
         margin: 2rem auto;
     }
 
@@ -810,12 +811,12 @@ footer p {
     }
 
     .newsletter-img {
-        width: 90%;
+        width: 100%;
         margin: 2rem auto;
     }
 
     .newsletter-field {
-        width: 90%;
+        width: 100%;
         margin: 0rem auto;
         padding: 5rem 0rem;
     }
